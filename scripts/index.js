@@ -35,7 +35,7 @@ class indexPage {
             headers: {
                 "Content-type": "application/json; charset=UTF-8",
                 "X-Goog-Api-Key": this.apiKey,
-                "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress,places.priceLevel"
+                "X-Goog-FieldMask": "places.id,places.displayName"
             }
         })
         .then((response) => response.json())
