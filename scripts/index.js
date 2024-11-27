@@ -1,5 +1,5 @@
 class indexPage {
-    apiKey = "AIzaSyCK0W_WRJQKJX21F_qNnkEHuUB-uBhekXc";
+    apiKey = "";
     placeId = "ChIJFwNWkCuvU4gRPgBADymHygo";
     textSearchUrl = "https://places.googleapis.com/v1/places:searchText";
     placeDetailsUrl = `https://places.googleapis.com/v1/places/`;
